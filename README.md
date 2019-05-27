@@ -1,6 +1,14 @@
 # profil-software-recruitment-task
 My solution for recruitment task for a company Profil Software
 
+### Technical specs:
+- python 3.7
+- Unit tests with pytest
+- only standard library (excluding pytest)
+- object oriented
+- conecting to sqlite database and managing data
+- downloading file via API, from JSON file
+
 *EN*
 ## Desc:
 Program downloads a .csv file from [https://api.dane.gov.pl/resources/17363](https://api.dane.gov.pl/resources/17363) which consists of statistics data about number of people who took part/passed the final exams in Poland, distinguished by terytory, year and gender. Program then exports data from .csv file into it's own sqlite database. 
