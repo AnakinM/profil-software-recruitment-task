@@ -1,5 +1,5 @@
-# profil-software-recruitment-task
-My solution for recruitment task for a company Profil Software
+# final-exams-scores-analysis
+Program that lets user perform analysis on Polish final exam's scores from year 2010 to 2018
 
 ### Technical specs:
 - python 3.7
