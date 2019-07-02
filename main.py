@@ -147,7 +147,7 @@ class DataProcessing():
     # Calculate number of people who passed the exam for for a given voivodeship throughout all years.
     def passed(self, voivode, gender=None):
         iyear=2010
-
+        voivode = voivode.capitalize()
         if voivode not in self.__voivodeships:
             return "Voivodeship not recognized"
 
@@ -297,7 +297,8 @@ class DataProcessing():
 
     # Compare two voivodeships according to their pass rates throughout all years.
     def compare(self, voivode_1, voivode_2, gender=None):
-
+        voivode_1 = voivode_1.capitalize()
+        voivode_2 = voivode_2.capitalize()
         if voivode_1 not in self.__voivodeships:
             return "Voivodeship 1 not recognized"
 
@@ -384,6 +385,8 @@ class DataProcessing():
 dp = DataProcessing()
 
 if __name__ == '__main__':
+
+    print("Welcome in Final Exams Scores Analysis.\nType your command or exit to quit the application.")
 
     # Main loop
     is_exit = False
